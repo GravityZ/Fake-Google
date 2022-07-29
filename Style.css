@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #202124;
+}
+
+.header{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+}
+
+.nav{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+}
+
+.user{
+    margin-left:10px ;
+    border-radius: 50%;
+}
+
+.material-symbols-outlined{
+    color: #fff;
+}
+
+.Glinks{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.google{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    padding-top: 150px;
+    width: 300px;
+    margin: 25px;
+}
+
+input{
+    background: none;
+    border: 1px solid #7a7878;
+    width: 550px;
+    height: 45px;
+    color: #fff;
+    outline: none;
+    border-radius: 20px;
+    padding: 0px 45px 0px 45px;
+    font-size: 17px;
+}
+
+input:hover{
+    background-color: #303134;
+    border: none;
+    box-shadow: 2px 3px 7px 0 #161616;
+}
+
+input:focus{
+    background-color: #303134;
+    border: none;
+    box-shadow: 2px 3px 7px 0 #161616;
+}
+
+.sus{
+    padding: 30px;
+}
+
+.surgestios{
+    
+    padding: 9px;
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: auto;
+    background: #303134;
+    font-size: 15px;
+}
+
+.p{
+    color: #bdc1c6;
+    font-size: 15px;
+}
+
+span{
+    color: #8ab4f8;
+    margin: 7px;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
